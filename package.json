@@ -1,18 +1,7 @@
 {
   "name": "ajs",
   "version": "1.0.0",
-  "description": "**Важно:** каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.",
-  "homepage": "https://github.com/Alfredych/ajs-hw-modules-and-webpack-1-webpack#readme",
-  "bugs": {
-    "url": "https://github.com/Alfredych/ajs-hw-modules-and-webpack-1-webpack/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Alfredych/ajs-hw-modules-and-webpack-1-webpack.git"
-  },
-  "license": "MIT",
-  "author": "Rysaev Damir <freepad@ya.ru>",
-  "type": "commonjs",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --mode development",
@@ -26,15 +15,20 @@
     "preshow:dist": "npm run build",
     "show:dist": "live-server dist"
   },
+  "author": "Rysaev Damir <freepad@ya.ru>",
+  "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.23.0",
-    "@babel/core": "^7.28.4",
-    "@babel/preset-env": "^7.28.3",
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.22.20",
     "@types/jest": "^29.5.5",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
     "babel-loader": "^9.2.1",
+    "babel-preset-env": "^1.7.0",
     "css-loader": "^6.11.0",
-    "eslint": "^8.50.0",
-    "eslint-plugin-jest": "^27.4.2",
+    "eslint": "^8.57.1",
+    "eslint-plugin-jest": "^27.9.0",
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.6.4",
     "jest": "^29.7.0",
